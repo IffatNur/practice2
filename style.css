@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+}
+h1{
+    font-family: 'Arima', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Lobster', cursive;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Raleway', sans-serif;
+}
+.header{
+    display: flex;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0),
+        rgba(1, 98, 255, 0.495)),url(images/eid.jpg);
+    background-size: cover;
+    height: 480px;
+    
+}
+.top-banner{
+    padding: 10%;
+
+}
+.button{
+    padding: 8px 25px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(99, 0, 0),rgb(247, 6, 6),rgb(99, 0, 0));
+    color: white;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(55, 1, 1), rgb(122, 13, 13), rgb(55, 0, 0));
+}
+.half-width{
+    width: 50%;
+}
+.nav a{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(252, 197, 152);
+}
+.nav a:hover{
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0),rgba(213, 255, 1, 0.265));
+    border-bottom: 2px solid rgba(255, 251, 1, 0.498);
+    height: 3%;
+}
+.mid> div> video {
+    width: 80%;
+    height: 80%;
+    padding-left: 30px;
+    
+}
+.mid{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(254, 162, 3, 0.249)),url(images/bg.jpg);
+    background-size: cover;
+    display: flex;
+}
+figure img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.payment{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+figure:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 20px 20px 40px rgba(255, 255, 255, 0.292);
+}
+.payment a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+    font-size: smaller;
+    padding: 3%;
+    background-color: rgb(122, 168, 41);
+}
+
+
