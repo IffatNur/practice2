@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="donate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@200;500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Libre+Baskerville:wght@700&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Donation</title>
+  </head>
+  <body>
+    <h1>Donate as much as you want</h1>
+    <small>Please fillup the following information</small>
+    <form action="">
+      <header>
+        <label for="name"
+        ><p>Name: <input type="text" placeholder="Enter your name" /></p
+      ></label>
+      <label for="email"
+        ><p>Email: <input type="email" placeholder="Enter your Email" /></p
+      ></label>
+      <label for="phone"><p>Phone: <input type="tel" placeholder="Enter your Phone number" /></p></label>
+      </header>
+
+      <fieldset>
+        <legend>Select district</legend>
+        
+        <select name="district" id="">
+          <option value="">Chittagong</option>
+          <option value="">Dhaka</option>
+          <option value="">Rajshahi</option>
+          <option value="">Sylhet</option>
+          <option value="">Khulna</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Select amount</legend>
+        <label for="100">
+            <input type="radio" name="amount" id="100">100tk
+        </label><br>
+        <label for="500">
+            <input type="radio" name="amount" id="500">500tk
+        </label><br>
+        <label for="1000">
+            <input type="radio" name="amount" id="1000">1000tk
+        </label><br>
+          <label for="amount">or Insert amount:<input type="number" /></label>
+        </p>
+      </fieldset>
+      <h3>Payment method:</h3>
+      <div class="system">
+        <p>Bkash</p>
+        <p>Nagad</p>
+        <p>Banking <br> System</p>
+      </div>
+      <div>
+        <input type="button" value="Confirm">
+      <input type="button" value="Cancel">
+      </div>
+    </form>
+  </body>
+</html>
